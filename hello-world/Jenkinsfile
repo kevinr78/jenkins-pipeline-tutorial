@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code again' 
+                echo 'Compile the source code again and again' 
             }
         }
         stage('Security Check') {
