@@ -4,7 +4,7 @@ pipeline {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code and practice DevOps!!!' 
-                echo 'Kevin has triggered this event again'
+                echo 'Kevin has triggered this event again  and again'
             }
         }
         stage('Compile') {
